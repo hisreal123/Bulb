@@ -1,0 +1,5 @@
+{
+  "watch": ["src/**/*.ts"],
+  "ext": ".ts,.js",
+  "exec": "yarn ts-node --project tsconfig.build.json ./src/utils/mongo/testMongo.ts"
+}

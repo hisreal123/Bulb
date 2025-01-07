@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    /*noEmit and outDir: "./dist" settings ensure that your TypeScript code is compiled and placed in the dist directory, which is necessary for running the compiled code.
+     */
+    "noEmit": false,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
